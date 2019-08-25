@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700');
+
+
+/* Default CSS */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bg-gray {
+    background-color: #e7f1f8;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.section-title h2:after {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    height: 6px;
+    width: 90px;
+    content: '';
+    background: #000;
+    opacity: 0.15;
+    margin-left: -45px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 70px;
+    color: #fff;
+    background-color: #eb7d4b;
+    border-radius: 4px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.button:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    content: '';
+    height: 6px;
+    opacity: 0.15;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.button:hover, .button:focus {
+    color: #fff;
+}
+
+.button:hover:after, .button:focus:after {
+    height: 100%;
+    border-radius: 4px;
+}
+
+
+
+/* Navigation Style */
+.navigation-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 60px;
+    color: #fff;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    color: inherit;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.mainmenu li:hover a {
+    background-color: #643a79;
+}
+
+
+/* Banner Style */
+.banner-wrap {
+    background-color: #87509c;
+    color: #fff;
+    height: 600px;
+}
+
+.banner-wrap div {
+    height: 100%;
+}
+
+.banner-wrap .col-lg-10 , .banner-wrap .col-lg-10 div {
+    height: auto;
+}
+
+.banner-content {
+    padding-top: 110px;
+}
+
+.banner-content h1 {
+    margin-bottom: 60px;
+}
+
+
+
+/* Services Style */
+.services-wrap {
+    background-color: #17c2a4;
+    color: #fff;
+}
+
+.content p {
+    font-weight: 300;
+}
+
+.content h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.content > img, .content > i {
+    margin-bottom: 60px;
+}
+
+.content > i {
+    font-size: 130px;
+}
+
+.content > img {
+    max-height: 130px;
+}
+
+
+
+
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+.content .circle {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.content h4 {
+    color: #30bae7;
+    font-size: 16px;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.team-wrap .content h3 {
+    margin-bottom: 18px;
+}
+
+.content .meta {
+    display: block;
+    color: #30bae7;
+    margin-bottom: 25px;
+}
+
+
+.skill-progress {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skill-progress span {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+.portfolio-items .mix {
+    width: 45%;
+    float: left;
+    margin: 0 25px;
+    margin-bottom: 60px;
+}
+
+.portfolio-items {
+    margin-left: -25px;
+    margin-right: -25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.portfolio-filter {
+    margin-bottom: 60px;
+    margin-top: -40px;
+}
+
+.portfolio-filter button {
+    font-size: 18px;
+    color: #393939;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    border: none;
+    background-color: #ebc985;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+
+.portfolio-filter button.mixitup-control-active {
+    background-color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+.portfolio-wrap {
+    background-color: #ffdd99;
+    padding-bottom: 60px;
+}
+
+.mix p {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.mix img {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-wrap {
+    background-color: #d74680;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.testimonial-content p {
+    font-style: italic;
+}
+
+.tes-meta h3 {
+    margin-bottom: 0;
+}
+
+.tes-meta p {
+    color: #ffdd99;
+}
+
+.testimonial-content .tes-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.testimonial-content {
+    position: relative;
+    padding-left: 145px;
+    margin-bottom: 120px;
+}
+
+
+
+
+.contact-wrap {
+    background-color: #3c5499;
+    color: #fff;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: #273a71;
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    outline: none;
+    color: #fff;
+}
+
+.footer-wrap {
+    background-color: #344b8e;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu li a {
+    display: block;
+    color: inherit;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-menu li:hover a {
+    color: #30bae7;
+}
